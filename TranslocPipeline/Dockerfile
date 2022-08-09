@@ -1,3 +1,4 @@
+
 FROM ubuntu:22.04
 
 ENV DEBIAN_FRONTEND=noninteractive
@@ -66,3 +67,5 @@ ENV GENOME_DB /TranslocPipeline/genomes
 ENV BOWTIE2_INDEXES /TranslocPipeline/genomes/bowtie2_indexes
 
 WORKDIR /TranslocPipeline/Workspace/tutorial_data
+
+
